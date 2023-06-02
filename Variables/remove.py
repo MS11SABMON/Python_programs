@@ -1,0 +1,5 @@
+thistuple=("R.S","K.A","H.M","S.V")
+y=list(thistuple)
+y.remove("R.S")
+thistuple=tuple(y)
+print(thistuple)
